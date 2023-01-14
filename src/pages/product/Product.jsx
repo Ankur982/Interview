@@ -14,7 +14,7 @@ export const Product = () => {
   return (
     <div>
             <div>
-                <image src={data.image}/>
+                <img src={data.image} alt={data.title} />
                 <h1>{data.title}</h1>
                 <p>{data.description}</p>
                 <p>{data.price}</p>

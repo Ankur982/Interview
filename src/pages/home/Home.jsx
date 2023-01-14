@@ -29,7 +29,7 @@ export const Home = () => {
       {
          data?.map((e,i)=>(
             <div key={i} onClick={()=>handleProductById(e.id)}>
-                <image src={e.image}/>
+                <img src={e.image} alt={e.title} className='Product_img'/>
                 <h1>{e.title}</h1>
                 <p>{e.description}</p>
                 <p>{e.price}</p>
