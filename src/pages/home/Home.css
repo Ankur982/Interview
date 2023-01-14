@@ -1,0 +1,10 @@
+.Product_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,auto);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
