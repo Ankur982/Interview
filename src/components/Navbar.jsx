@@ -10,9 +10,6 @@ export const Navbar = () => {
             <Link to="/" >Home</Link>
         </div>
         <div>
-            <Link to="/:id" >Product</Link>
-        </div>
-        <div>
             Cart Count: {cart}
         </div>
     </div>
