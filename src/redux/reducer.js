@@ -26,8 +26,6 @@ export const Reducer = (state = initState, { type, payload }) => {
                     ...state,
                     cart: state.cart+1
                 }
-
-        
         default: return state
     }
 }
